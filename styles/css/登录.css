@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+body{font-size:14px;font-family:microsoft yahei;}
+ul,li{list-style:none;}
+img{border:none;}
+.clear{clear:both;}
+.floatl{float:left;}
+.floatr{float:right;}
+.block{display:block;}
+.fontl2{font-size:12px;}
+a{color:#000;text-decoration:none;}
+a:hover{ text-decoration:underline;color:blue;}
+/*header*/
+.header{width:1000px;margin:0 auto; margin-bottom:5px;}
+.logo{ background:url(../images/logo.png) no-repeat;width:237px;height:86px;float:left;}
+.nav{font-size:16px;font-weight:bold;line-height:80px; float:right;width:600px;}
+.nav li{ float:right;margin-right:20px; margin-top:10px;} 
+.nav li:hover{color:#0FF;}
+/*content*/
+.content{ background:#3DAFC7 url(../images/login_bg1.jpg) no-repeat center; width:100%;height:449px; margin-top:10px;}
+.login-box{ background:#F3F3F3; width:280px;height:300px; border-radius:10px; float:right; position:relative; margin-top:150px; margin-right:180px;}
+.login-box h3{ font-size:20px; margin-left:10px; margin-top:15px;}
+.login-box form{width:100%;margin-top:10px;}
+.username{ width:80%;height:30px; margin-left:20px; margin-top:7px;}
+.password{width:80%;height:30px; margin-left:20px; margin-top:7px;}
+.login-box h4{ float:right; margin-top:5px; margin-right:5px;font-weight:bold; font-size:14px; width:80px;}
+.login_button{ margin-left:10px; text-align:center; line-height:45px;border-radius:10px;background:#00A8E1;height:50px; width:150px; font-size:16px; color:white; font-weight:bold;}
+
+/*footer*/
+.partners{ background-color:#F3F4F6; width:100%; margin-top:15px;}
+.links{ width:1000px; margin-top:10px; margin-left:250px; margin-right:250px;}
+.footer{ width:100%; height:100px; background:#333333;font-size:14px;color:white;text-align:center;height:50px; padding-top:10px;}
